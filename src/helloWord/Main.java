@@ -7,6 +7,13 @@ public class Main {
 
 		System.out.println("hello word");
 		
+		Somma somma = new Somma();
+		
+		Somma risultato = somma;
+		
+		System.out.println(risultato);
+		
+		
 	}
 
 }
